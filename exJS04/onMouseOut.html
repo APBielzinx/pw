@@ -36,7 +36,7 @@
         <form>
             <div class="text">
             
-                <h3> serve para substituir a imagem quando o mouse não estiver mais sobre ela, no caso, a imagem voltará a seu estado normal.                </h3>
+                <h3>Essa função é acionada quando o mouse passa por cima de algum elemento específico. Logo após a passagem do mouse, o botão volta ao estado inicial.  </h3>
             </div>
         </form>
 </header>
@@ -45,9 +45,7 @@
 
     <br>
     
-    <div onmouseover="mOver(this)" onmouseout="mOut(this)"
-
-style="background-color:#D94A38;width:120px;height:20px;padding:40px;">Passe o mouse em mim</div>
+    <div  class="button" onmouseover="funcaoonMouseOut(this)" onmouseout="funcaoonMouseOver(this)">Passe o mouse em mim</div>
     <script src="js/mobile.navbar.js"> </script>
     <script src="js/eventos.js"></script>
 </body>

@@ -36,7 +36,7 @@
         <form>
             <div class="text">
             
-                <h3>é disparado quando a tecla é largada e o seu input adicionado/registado no DOM. No caso de um input o novo caracter é inserido e não dá para cancelar, ou seja um input receberá o caractere.
+                <h3> Ao segurar o botão, a função é acionada e o texto munda. Se soltar botão, é exibido uma, mensagem. 
     
                 </h3>
             </div>
@@ -47,8 +47,7 @@
 
     <br>
 
-    <div onmousedown="mDown(this)" onmouseup="mUp(this)"
-style="background-color:#D94A38;width:90px;height:20px;padding:40px;">Clique aqui</div>
+    <div  class="button" onmousedown="funcaoonKeyDown(this)" onmouseup="funcaoonKeyUp(this)">Clique aqui</div>
     <script src="js/mobile.navbar.js"> </script>
     <script src="js/eventos.js"></script>
 </body>
