@@ -16,13 +16,14 @@ tags.forEach(tag => {
     listaTags.push(tagNova)
 });
 
-listaTags[0].textContent = "Nome"
+
 
 body.appendChild(listaTags[4])
 listaTags[4].classList.add('cabecalho')
 
 //nome
 listaTags[4].appendChild(listaTags[0])
+listaTags[0].textContent = "Nome"
 
 //emprego
 listaTags[4].appendChild(listaTags[5])
