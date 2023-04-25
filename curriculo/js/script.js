@@ -30,7 +30,7 @@ listaTags[5].textContent = "Emprego"
 
 //telefone
 listaTags[4].appendChild(listaTags[7])
-listaTags[7].classList.add('bi bi-envelope')
+listaTags[7].classList.add('material-icons')
 
 function criarTags(tag){
     let novaTag = document.createElement(tag)
