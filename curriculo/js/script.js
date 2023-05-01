@@ -39,7 +39,7 @@ listaTags[6].textContent = "1213123"
 let iconEmail  = new criarTags('span')
 listaTags[4].appendChild(iconEmail)
 iconEmail.classList.add('material-symbols-outlined')
-iconEmail.textContent = "mail"
+iconEmail.textContent = "email"
 let txtEmail = new criarTags('h3')
 listaTags[4].appendChild(txtEmail)
 txtEmail.textContent = "exemple@exemple.com"

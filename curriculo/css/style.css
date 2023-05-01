@@ -6,3 +6,34 @@
 
 }
 
+.email span.material-symbols-outlined, h3{
+    display: inline-block;
+}
+    .corpo{
+        margin-left: 75px;
+    } 
+
+
+.sobreMim h1{
+    background-color: grey;
+    margin-right: 85%;
+}
+
+.sobreMim p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.experiencia h1{
+    background-color: grey;
+    margin-right: 85%;
+}
+
+.educacao h1{
+    background-color: grey;
+    margin-right: 85%;
+}
+
+.habilidades h1{
+    background-color: grey;
+    margin-right: 85%;
+}
