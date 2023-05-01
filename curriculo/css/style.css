@@ -31,9 +31,19 @@
 .educacao h1{
     background-color: grey;
     margin-right: 85%;
+    margin-top: 50px;
+    
 }
+
 
 .habilidades h1{
     background-color: grey;
     margin-right: 85%;
+    
+}
+
+.linhaVertical{
+
+border-left: 1px solid ;
+
 }
