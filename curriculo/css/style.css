@@ -1,21 +1,28 @@
 .cabecalho{
 
-    text-align: center;
+   text-align: center;
    background-color: #1B1D2D;
    color: white;
 
 }
 
+
+
 .email span.material-symbols-outlined, h3{
     display: inline-block;
+    
+   
 }
+
+
+
     .corpo{
         margin-left: 75px;
     } 
 
 
 .sobreMim h1{
-    background-color: grey;
+    background-color: #949494;
     margin-right: 85%;
 }
 
@@ -24,26 +31,35 @@
 }
 
 .experiencia h1{
-    background-color: grey;
+    background-color: #949494;
     margin-right: 85%;
 }
 
 .educacao h1{
-    background-color: grey;
+    background-color: #949494;
     margin-right: 85%;
-    margin-top: 50px;
+    
+    
+}
+
+.educacao h3 {
+   
+    padding-top: -10px;
     
 }
 
 
 .habilidades h1{
-    background-color: grey;
+    background-color: #949494;
     margin-right: 85%;
     
 }
 
 .linhaVertical{
 
-border-left: 1px solid ;
+    border-left: 3px solid ;
+    color: #3f3f3f;
+    
+    
 
 }

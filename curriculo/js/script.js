@@ -27,7 +27,7 @@ divNome.classList = "nome"
 
 //nome
 divNome.appendChild(listaTags[0])
-listaTags[0].textContent = "Armando Gomes"
+listaTags[0].textContent = "ARMANDO GOMES"
 
 //criando div emprego
 let divEmprego = new criarTags('div')
@@ -79,6 +79,7 @@ let txtredeSocial = new criarTags('h3')
 divRedeSocial.appendChild(txtredeSocial)
 txtredeSocial.textContent = "@grandesite"
 
+
 //criando div corpo 
 let divCorpo = new criarTags('div')
 body.appendChild(divCorpo)
@@ -88,8 +89,6 @@ divCorpo.classList.add('corpo')
 let divSobreMim = new criarTags('div')
 divCorpo.appendChild(divSobreMim)
 divSobreMim.classList.add('sobreMim')
-
-
 
 //sobre mim
 let tituloSobreMim = new criarTags('h1')
@@ -112,7 +111,7 @@ divLinhaVerticalExperiencia.classList = "linhaVertical"
 
 //experiencia
 let tituloExperiencia = new criarTags('h1')
-tituloExperiencia.textContent = "Experiencia"
+tituloExperiencia.textContent = "Experiência"
 divExperiencia.appendChild(tituloExperiencia)
 divExperiencia.appendChild(divLinhaVerticalExperiencia)
 let txtExperiencia = new criarTags('h2')
@@ -205,7 +204,7 @@ tituloHabilidades.textContent = "Habilidades"
 divHabilidades.appendChild(tituloHabilidades)
 divHabilidades.appendChild(divlinhaVerticalHabilidades)
 let txtHabilidades = new criarTags('p')
-txtHabilidades.textContent = "Gestão de pessoasTomada de decisõesResolução de problemas difíceisInteligência emocional"
+txtHabilidades.textContent = "Gestão de pessoas Tomada de decisõesResolução de problemas difíceisInteligência emocional"
 divlinhaVerticalHabilidades.appendChild(txtHabilidades)
 
 
