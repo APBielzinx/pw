@@ -68,7 +68,7 @@ txtEmail.textContent = "ola@grandesite.com.br"
 //criando div rede social
 let divRedeSocial = new criarTags('div')
 listaTags[4].appendChild(divRedeSocial)
-divRedeSocial.classList = "nome"
+divRedeSocial.classList = "redeSocial"
 
 //rede social
 let iconRedeSocial = new criarTags('span')
@@ -207,7 +207,11 @@ let txtHabilidades = new criarTags('p')
 txtHabilidades.textContent = "Gestão de pessoas Tomada de decisõesResolução de problemas difíceisInteligência emocional"
 divlinhaVerticalHabilidades.appendChild(txtHabilidades)
 
+/*let txtHabilidades = new criarTags('p')
+ul2.appendChild(txtHabilidades)
+segundaListaExperienciaExperiencia1.textContent = "Realização de audiências trabalhistas"
 
+*/
 
 function criarTags(tag){
     let novaTag = document.createElement(tag)

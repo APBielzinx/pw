@@ -1,26 +1,49 @@
+
+
 .cabecalho{
 
    text-align: center;
    background-color: #1B1D2D;
    color: white;
+   padding: 0px;
+   margin: 0px;
+   align-items: center;
+ 
 
 }
 
 
-
+.email span.material-symbols-outlined{
+    margin-left: 70px;
+}
 .email span.material-symbols-outlined, h3{
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 5px;
+   
+}
+
+
+
+.telefone span.material-symbols-outlined, h3{
+    display: inline-block;
+    margin-right: 5px;
     
    
 }
 
-.call span.material-symbols-outlined, h3{
+
+
+.redeSocial span.material-symbols-outlined, h3{
     display: inline-block;
-    margin-right: 10px;
-    
+    margin-right: 5px;
+   
    
 }
+
+.emprego {
+    margin-top: 10px;
+}
+
 
 
 
