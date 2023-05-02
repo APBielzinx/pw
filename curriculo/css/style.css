@@ -10,6 +10,14 @@
 
 .email span.material-symbols-outlined, h3{
     display: inline-block;
+    margin-right: 10px;
+    
+   
+}
+
+.call span.material-symbols-outlined, h3{
+    display: inline-block;
+    margin-right: 10px;
     
    
 }
