@@ -66,6 +66,19 @@ div.redeSocial {
 .sobreMim h1{
     background-color: #949494;
     margin-right: 88%;
+   
+}
+
+.experiencia h2{
+    margin-left: 10px;
+}
+
+.educacao h2,h3{
+    margin-left: 10px;
+}
+
+.habilidades p{
+    margin-left: 10px;
 }
 
 .sobreMim p {
