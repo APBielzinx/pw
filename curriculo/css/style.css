@@ -8,7 +8,18 @@
    padding: 0px;
    margin: 0px;
    align-items: center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  
+ 
+
+}
+
+div.email {
+    margin-top: -25px;
+}
+
+div.redeSocial {
+    margin-top: -25px;
 
 }
 
@@ -41,7 +52,7 @@
 }
 
 .emprego {
-    margin-top: 10px;
+    margin-top: -20px;
 }
 
 
@@ -54,7 +65,7 @@
 
 .sobreMim h1{
     background-color: #949494;
-    margin-right: 85%;
+    margin-right: 88%;
 }
 
 .sobreMim p {
@@ -63,19 +74,19 @@
 
 .experiencia h1{
     background-color: #949494;
-    margin-right: 85%;
+    margin-right: 87%;
 }
 
 .educacao h1{
     background-color: #949494;
-    margin-right: 85%;
+    margin-right: 88%;
     
     
 }
 
 .educacao h3 {
    
-    padding-top: -10px;
+    margin-top: -35px;
     
 }
 
@@ -86,6 +97,10 @@
     
 }
 
+.habilidades p {
+   margin-top: -15px;
+}
+
 .linhaVertical{
 
     border-left: 3px solid ;
@@ -94,3 +109,4 @@
     
 
 }
+

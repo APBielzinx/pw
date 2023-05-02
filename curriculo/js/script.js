@@ -93,7 +93,7 @@ divSobreMim.classList.add('sobreMim')
 //sobre mim
 let tituloSobreMim = new criarTags('h1')
 divSobreMim.appendChild(tituloSobreMim)
-tituloSobreMim.textContent = "Sobre mim"
+tituloSobreMim.textContent = "SOBRE MIM"
 let txtSobreMim = new criarTags('p')
 divSobreMim.appendChild(txtSobreMim)
 txtSobreMim.textContent = "Advogado trabalhista com 5 anos de experiência. Atuação em processos judiciais, promovendo defesa de empresas e de clientes em ações trabalhistas. Capacidade de solucionar problemas mais complexos e de fazer negociações inteligentes."
@@ -111,7 +111,7 @@ divLinhaVerticalExperiencia.classList = "linhaVertical"
 
 //experiencia
 let tituloExperiencia = new criarTags('h1')
-tituloExperiencia.textContent = "Experiência"
+tituloExperiencia.textContent = "EXPERIÊNCIA"
 divExperiencia.appendChild(tituloExperiencia)
 divExperiencia.appendChild(divLinhaVerticalExperiencia)
 let txtExperiencia = new criarTags('h2')
@@ -157,7 +157,7 @@ divEducacao.classList.add('educacao')
 
 //educaçao 
 let tituloEducacao = new criarTags('h1')
-tituloEducacao.textContent = "Educação"
+tituloEducacao.textContent = "EDUCAÇÃO"
 divEducacao.appendChild(tituloEducacao)
 divEducacao.appendChild(divLinhaVerticalEducação)
 let anoTipo = new criarTags('h2')
@@ -200,18 +200,24 @@ divlinhaVerticalHabilidades.classList = "linhaVertical"
 
 //habilidades
 let tituloHabilidades = new criarTags('h1')
-tituloHabilidades.textContent = "Habilidades"
+tituloHabilidades.textContent = "HABILIDADES"
 divHabilidades.appendChild(tituloHabilidades)
 divHabilidades.appendChild(divlinhaVerticalHabilidades)
 let txtHabilidades = new criarTags('p')
-txtHabilidades.textContent = "Gestão de pessoas Tomada de decisõesResolução de problemas difíceisInteligência emocional"
+txtHabilidades.textContent = "Gestão de pessoas"
 divlinhaVerticalHabilidades.appendChild(txtHabilidades)
 
-/*let txtHabilidades = new criarTags('p')
-ul2.appendChild(txtHabilidades)
-segundaListaExperienciaExperiencia1.textContent = "Realização de audiências trabalhistas"
+let txtHabilidades2 = new criarTags('p')
+txtHabilidades2.textContent = "Tomada de decisões"
+divlinhaVerticalHabilidades.appendChild(txtHabilidades2)
 
-*/
+let txtHabilidades3 = new criarTags('p')
+txtHabilidades3.textContent = "Resolução de problemas difíceis"
+divlinhaVerticalHabilidades.appendChild(txtHabilidades3)
+
+let txtHabilidades4 = new criarTags('p')
+txtHabilidades4.textContent = "Inteligência emocional"
+divlinhaVerticalHabilidades.appendChild(txtHabilidades4)
 
 function criarTags(tag){
     let novaTag = document.createElement(tag)
