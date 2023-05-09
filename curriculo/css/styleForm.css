@@ -72,11 +72,11 @@
 .box-formulario {
 
     width: 100%;
-    /*align-items: left;*/
+    align-items: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-   /* justify-content: left;*/
+    justify-content: center;
     background-color: #232323;
     padding: 200px 0;
 
@@ -331,26 +331,8 @@
     display: inline-block;
 }*/
 
-.dadosPessoais {
-  
-  
-  align-items: left;
- justify-content: left;
- 
 
-}
-
-.carreira {
-    
-  align-items: right;
- justify-content: right;
-
-}
-
-form{
-  display: inline-block;
-  width: 1000px;
-}
+/*
 
 div.dadosPessoais{
   justify-content:left; 
@@ -358,7 +340,7 @@ div.dadosPessoais{
 
 }
 div.carreira{
-  justify-content:center; 
+  justify-content:right; 
   display: inline-block;
 
-}
+}*/

@@ -8,11 +8,12 @@ var emprego = urlClass.searchParams.get("emprego");
 var telefone = urlClass.searchParams.get("telefone");
 var email = urlClass.searchParams.get("email");
 var redeSocial = urlClass.searchParams.get("redeSocial");
-
+var dataDeNascimento = urlClass.searchParams.get("dataDeNascimento");
+var endereco = urlClass.searchParams.get("endereco")
 //Corpo
 //Sobre Mim
 var sobreMim = urlClass.searchParams.get("sobreMim");
-var dataDeNascimento = urlClass.searchParams.get("dataDeNascimento");
+
 
 //Experiencia
 //primeira Experiencia
@@ -32,16 +33,6 @@ var segundaExperiencia3 = urlClass.searchParams.get("segundaExperiencia3");
 var educacaoAno = urlClass.searchParams.get("educacaoAno");
 var educacaoCurso = urlClass.searchParams.get("educacaoCurso");
 var educacaoInstituicao = urlClass.searchParams.get("educacaoInstituicao");
-
-//educação 2
-var educacaoTitulo2 = urlClass.searchParams.get("educacaoTitulo2");
-var educacaoAnoCurso2 = urlClass.searchParams.get("educacaoAnoCurso2");
-var educacaoInstituicao2 = urlClass.searchParams.get("educacaoInstituicao2");
-
-//educação 3
-var educacaoTitulo3 = urlClass.searchParams.get("educacaoTitulo3");
-var educacaoAnoCurso3 = urlClass.searchParams.get("educacaoAnoCurso3");
-var educacaoInstituicao3 = urlClass.searchParams.get("educacaoInstituicao3");
 
 //Idiomas
 //idioma1
@@ -97,7 +88,7 @@ divEmprego.classList = "emprego"
 
 //emprego
 divEmprego.appendChild(listaTags[5])
-listaTags[5].textContent = "Advogado Trabalhista"
+listaTags[5].textContent = emprego
 
 //criando div telefone
 let divtelefone = new criarTags('div')
@@ -109,7 +100,7 @@ divtelefone.appendChild(listaTags[7])
 listaTags[7].classList.add('material-symbols-outlined')
 listaTags[7].textContent = "call"
 divtelefone.appendChild(listaTags[6])
-listaTags[6].textContent = "(12) 3456-7890"
+listaTags[6].textContent = telefone
 
 //criando div Email
 let divEmail = new criarTags('div')
@@ -138,8 +129,35 @@ iconRedeSocial.classList.add('material-symbols-outlined')
 iconRedeSocial.textContent = "language"
 let txtredeSocial = new criarTags('h3')
 divRedeSocial.appendChild(txtredeSocial)
-txtredeSocial.textContent = "@grandesite"
+txtredeSocial.textContent = redeSocial
 
+//criando div data de nascimento
+let divDataDeNasc = new criarTags('div')
+listaTags[4].appendChild(divDataDeNasc)
+divDataDeNasc.classList = "DataDeNasc"
+
+// data de nascimento
+let iconDataDeNasc = new criarTags('span')
+divDataDeNasc.appendChild(iconDataDeNasc)
+iconDataDeNasc.classList.add('material-symbols-outlined')
+iconDataDeNasc.textContent = "calendar_month"
+let txtDataDeNasc = new criarTags('h3')
+divDataDeNasc.appendChild(txtDataDeNasc)
+txtDataDeNasc.textContent = dataDeNascimento
+
+//criando div endereco
+let divendereco = new criarTags('div')
+listaTags[4].appendChild(divendereco)
+divendereco.classList = "endereco"
+
+// data de nascimento
+let iconendereco = new criarTags('span')
+divendereco.appendChild(iconendereco)
+iconendereco.classList.add('material-symbols-outlined')
+iconendereco.textContent = "home"
+let txtendereco = new criarTags('h3')
+divendereco.appendChild(txtendereco)
+txtendereco.textContent = endereco
 
 //criando div corpo 
 let divCorpo = new criarTags('div')
@@ -157,7 +175,7 @@ divSobreMim.appendChild(tituloSobreMim)
 tituloSobreMim.textContent = "SOBRE MIM"
 let txtSobreMim = new criarTags('p')
 divSobreMim.appendChild(txtSobreMim)
-txtSobreMim.textContent = "Advogado trabalhista com 5 anos de experiência. Atuação em processos judiciais, promovendo defesa de empresas e de clientes em ações trabalhistas. Capacidade de solucionar problemas mais complexos e de fazer negociações inteligentes." + "minha data de nascimento é" + dataDeNascimento
+txtSobreMim.textContent = sobreMim 
 
 //criando div experiencia
 let divExperiencia = new criarTags('div')
@@ -177,19 +195,19 @@ divExperiencia.appendChild(tituloExperiencia)
 divExperiencia.appendChild(divLinhaVerticalExperiencia)
 let txtExperiencia = new criarTags('h2')
 divLinhaVerticalExperiencia.appendChild(txtExperiencia)
-txtExperiencia.textContent = "Estagiário| Borcelle 2023 até 2024"
+txtExperiencia.textContent = ExperienciaTitulo
 divLinhaVerticalExperiencia.appendChild(listaTags[2])
 let listaExperiencia1 = new criarTags('li')
 listaTags[2].appendChild(listaExperiencia1)
-listaExperiencia1.textContent = "Emissão de guias"
+listaExperiencia1.textContent = Experiencia1
 let listaExperiencia2 = new criarTags('li')
 listaTags[2].appendChild(listaExperiencia2)
-listaExperiencia2.textContent = "Protocolos de prazos"
+listaExperiencia2.textContent = Experiencia2
 let listaExperiencia3 = new criarTags('li')
 listaTags[2].appendChild(listaExperiencia3)
-listaExperiencia3.textContent = "Controle de parecer jurídico"
+listaExperiencia3.textContent = Experiencia3
 
-//segunda experiencia
+/*//segunda experiencia
 let txtExperiencia2 = new criarTags('h2')
 txtExperiencia2.textContent = "Advogado Trabalhista | Pacheco e Lacerda 2025 até 2027"
 divLinhaVerticalExperiencia.appendChild(txtExperiencia2)
@@ -204,7 +222,7 @@ segundaListaExperienciaExperiencia2.textContent = "Elaboração de processos jud
 let segundaListaExperienciaExperiencia3 = new criarTags('li')
 ul2.appendChild(segundaListaExperienciaExperiencia3)
 segundaListaExperienciaExperiencia3.textContent = "Gerenciamento de carteira de cliente"
-
+*/
 //criando div linhaVerticalEducação
 let divLinhaVerticalEducação = new criarTags('div')
 divLinhaVerticalEducação.classList = "linhaVertical"
@@ -221,14 +239,15 @@ let tituloEducacao = new criarTags('h1')
 tituloEducacao.textContent = "EDUCAÇÃO"
 divEducacao.appendChild(tituloEducacao)
 divEducacao.appendChild(divLinhaVerticalEducação)
+
 let anoTipo = new criarTags('h2')
-anoTipo.textContent = "2018-2022 | Graduação em Direito"
+anoTipo.textContent = educacaoAno+" | "+educacaoCurso
 divLinhaVerticalEducação.appendChild(anoTipo)
 let instituicao = new criarTags('h3')
-instituicao.textContent = "Faculdade Faustino"
+instituicao.textContent = educacaoInstituicao
 divLinhaVerticalEducação.appendChild(instituicao)
 
-//educação 2
+/*//educação 2
 
 let anoTipo2 = new criarTags('h2')
 anoTipo2.textContent = "2023-2025 | Mestrado em Direito"
@@ -245,7 +264,7 @@ divLinhaVerticalEducação.appendChild(anoTipo3)
 let instituicao3 = new criarTags('h3')
 instituicao3.textContent = "Faculdade Faustino"
 divLinhaVerticalEducação.appendChild(instituicao3)
-
+*/
 
 //Idiomas
 
@@ -264,7 +283,7 @@ divIdiomas.appendChild(tituloIdiomas)
 divIdiomas.appendChild(divlinhaVerticalIdiomas)
 
 let txtIdiomas = new criarTags('p')
-txtIdiomas.textContent = "ingles"
+txtIdiomas.textContent = idioma
 divlinhaVerticalIdiomas.appendChild(txtIdiomas)
 
 
@@ -286,9 +305,9 @@ divHabilidades.appendChild(tituloHabilidades)
 divHabilidades.appendChild(divlinhaVerticalHabilidades)
 
 let txtHabilidades = new criarTags('p')
-txtHabilidades.textContent = "Gestão de pessoas"
+txtHabilidades.textContent = habilidade
 divlinhaVerticalHabilidades.appendChild(txtHabilidades)
-
+/*
 let txtHabilidades2 = new criarTags('p')
 txtHabilidades2.textContent = "Tomada de decisões"
 divlinhaVerticalHabilidades.appendChild(txtHabilidades2)
@@ -300,7 +319,7 @@ divlinhaVerticalHabilidades.appendChild(txtHabilidades3)
 let txtHabilidades4 = new criarTags('p')
 txtHabilidades4.textContent = "Inteligência emocional"
 divlinhaVerticalHabilidades.appendChild(txtHabilidades4)
-
+*/
 function criarTags(tag) {
     let novaTag = document.createElement(tag)
     return novaTag

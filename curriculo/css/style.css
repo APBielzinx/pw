@@ -14,12 +14,22 @@
 
 }
 
+.cabecalho .telefone, .email, .redeSocial, .DataDeNasc, .endereco {
+    display: inline-block;
+}
+
+.cabecalho h1,h2{
+    display: inline-block;
+}
+
 div.email {
     margin-top: -25px;
+    margin-left: -50px;
 }
 
 div.redeSocial {
     margin-top: -25px;
+    margin-left: 10px;
 
 }
 
@@ -55,6 +65,13 @@ div.redeSocial {
     margin-top: -20px;
 }
 
+.DataDeNasc {
+    margin-left: 10px;
+}
+
+.endereco {
+    margin-left: 10px;
+}
 
 
 
