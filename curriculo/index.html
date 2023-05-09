@@ -1,23 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+<html lang="pt-br">
+
+ <head>
+	
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="Formulário de Contato Html Pronto" content="Formulário de contato html css efeito Card" />
+    <meta name="description" content="Veja como fazer um formulario de contato animado com html e css."/>
+    <meta name="keywords" content="Html, Css, Jquery, Wordpress, Sites Grátis, Tema para Wordpress, Site Responsivo"/>
+    <meta name="author" content="Loop Nerd" />
+    <meta name="URL" content="https://www.loopnerd.com.br/artigos/css3/formulario-html-com-inputs-animado-com-css-efeito-card/"/>
+    <meta http-equiv="content-language" content="pt-br" />
+    <meta name="robots" content="index, follow"/>
+    
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+    <![endif]-->       
+
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/styleForm.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i'>
+    <link rel="stylesheet" type="text/css" href="css/fonts-icones.css">
+    <link rel="shortcut icon" href="https://www.loopnerd.com.br/artigos/css3/formulario-html-com-inputs-animado-com-css-efeito-card/img/favicon.png" type="image/ico" />
+
+	<title>Formulário Currículo</title>
+
+ </head>
+
 <body>
-
-    <form action="curriculo.html" method="get">
-        <input type="text" name="nome" id="nome">
-        <input type="email" name="email" id="email">
-        <input type="text" name="dataDeNascimento" id="dataDeNascimento">
+    
 
 
-        <button type="submit">enviar</button>
+<main class="main_content container">
 
-    </form>
- 
-   
+
+    <div class="box-formulario">        
+        
+        <div class="formulario">
+            
+            <div class="box-title">
+              <h2 class="title">Currículo
+                <p class="subtitle">Coloque seus dados</p>
+              </h2>
+            </div>
+
+            <form action="#" method="post">
+                     
+
+                <span>
+                    <input type="text" class="input-card" id="nome" name="nome" placeholder="Nome" required=""/>
+                    <label for="nome"> <i class="icon icon-user-outline"></i> </label>
+                </span>
+
+                <span>
+                    <input type="text" class="input-card" id="email" name="email" placeholder="E-mail" required=""/>
+                    <label for="email"> <i class="icon icon-mail-3"></i> </label>
+                </span>
+
+                <span>
+                    <input type="text" class="input-card" id="assunto" name="assunto" placeholder="Assunto" required=""/>
+                    <label for="assunto"> <i class="icon icon-info"></i> </label>
+                </span>
+
+                <span>
+                    <textarea type="text" class="textarea-card" id="mensagem" name="mensagem" rows="3" placeholder="Mensagem" required=""></textarea>
+                    <label for="mensagem"> <i class="icon icon-bubble-4"></i> </label>
+                </span>
+
+                <div class="box-pulse">
+                     <input type="submit" value="Enviar mensagem" class="btn-submit">
+                </div>
+
+            </form>
+
+        </div>
+
+    </div><!--Box Formulario-->    
+
+</main>
+
+
+<script src="js/jquery.js"></script>
+<script src="js/scriptForm.js"></script>
 </body>
 </html>
