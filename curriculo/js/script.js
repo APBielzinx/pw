@@ -29,8 +29,8 @@ var segundaExperiencia3 = urlClass.searchParams.get("segundaExperiencia3");
 
 //Educação 
 //educação 1
-var educacaoTitulo = urlClass.searchParams.get("educacao");
-var educacaoAnoCurso = urlClass.searchParams.get("educacaoAnoCurso");
+var educacaoAno = urlClass.searchParams.get("educacaoAno");
+var educacaoCurso = urlClass.searchParams.get("educacaoCurso");
 var educacaoInstituicao = urlClass.searchParams.get("educacaoInstituicao");
 
 //educação 2
@@ -266,6 +266,8 @@ divIdiomas.appendChild(divlinhaVerticalIdiomas)
 let txtIdiomas = new criarTags('p')
 txtIdiomas.textContent = "ingles"
 divlinhaVerticalIdiomas.appendChild(txtIdiomas)
+
+
 
 
 //criando div habilidades

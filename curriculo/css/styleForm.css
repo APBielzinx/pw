@@ -19,6 +19,8 @@
 
 /*Formulário*/
 
+
+
 .box-title .title {
 
   position: relative;
@@ -70,11 +72,11 @@
 .box-formulario {
 
     width: 100%;
-    align-items: center;
+    /*align-items: left;*/
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+   /* justify-content: left;*/
     background-color: #232323;
     padding: 200px 0;
 
@@ -323,3 +325,40 @@
 
 }
 /*Fecha o Responsivo*/
+
+/*
+.primeraParte, .segundaParte {
+    display: inline-block;
+}*/
+
+.dadosPessoais {
+  
+  
+  align-items: left;
+ justify-content: left;
+ 
+
+}
+
+.carreira {
+    
+  align-items: right;
+ justify-content: right;
+
+}
+
+form{
+  display: inline-block;
+  width: 1000px;
+}
+
+div.dadosPessoais{
+  justify-content:left; 
+  display: inline-block;
+
+}
+div.carreira{
+  justify-content:center; 
+  display: inline-block;
+
+}
