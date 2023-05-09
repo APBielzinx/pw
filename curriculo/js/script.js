@@ -320,6 +320,23 @@ let txtHabilidades4 = new criarTags('p')
 txtHabilidades4.textContent = "Inteligência emocional"
 divlinhaVerticalHabilidades.appendChild(txtHabilidades4)
 */
+
+let printt = new criarTags("input")
+body.appendChild(printt)
+printt.type = "button"
+printt.classList ="print"
+printt.id ="print"
+printt.textContent="tirar Print"
+
+var printE = document.getElementById("print")
+
+printE.addEventListener('click',tirarPrint)
+
+function tirarPrint(){
+    window.print()
+}
+
+
 function criarTags(tag) {
     let novaTag = document.createElement(tag)
     return novaTag
