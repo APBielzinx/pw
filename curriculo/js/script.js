@@ -321,19 +321,21 @@ txtHabilidades4.textContent = "Inteligência emocional"
 divlinhaVerticalHabilidades.appendChild(txtHabilidades4)
 */
 
-let printt = new criarTags("input")
-body.appendChild(printt)
-printt.type = "button"
-printt.classList ="print"
-printt.id ="print"
-printt.textContent="tirar Print"
+let botaoPrint = new criarTags("button")
+body.appendChild(botaoPrint)
+botaoPrint.classList ="btn-3"
+botaoPrint.id ="print"
+botaoPrint.textContent ="Imprimir"
 
-var printE = document.getElementById("print")
+var botaoPrintE = document.getElementById("print")
 
-printE.addEventListener('click',tirarPrint)
+botaoPrintE.addEventListener('click',tirarPrint)
 
 function tirarPrint(){
+    botaoPrint.style.display = "none"
     window.print()
+    botaoPrint.style.display = ""
+
 }
 
 

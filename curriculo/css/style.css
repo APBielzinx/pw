@@ -1,24 +1,30 @@
+.cabecalho {
+
+    text-align: center;
+    background-color: #1B1D2D;
+    color: white;
+    padding: 0px;
+    margin: 51px;
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 
-.cabecalho{
-
-   text-align: center;
-   background-color: #1B1D2D;
-   color: white;
-   padding: 0px;
-   margin: 0px;
-   align-items: center;
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
- 
- 
 
 }
 
-.cabecalho .telefone, .email, .redeSocial, .DataDeNasc, .endereco {
+.cabecalho .telefone,
+.email,
+.redeSocial,
+.DataDeNasc,
+.endereco {
     display: inline-block;
 }
 
-.cabecalho h1,h2{
+.cabecalho h1,
+h2 {
     display: inline-block;
 }
 
@@ -34,31 +40,35 @@ div.redeSocial {
 }
 
 
-.email span.material-symbols-outlined{
+.email span.material-symbols-outlined {
     margin-left: 70px;
 }
-.email span.material-symbols-outlined, h3{
+
+.email span.material-symbols-outlined,
+h3 {
     display: inline-block;
     margin-right: 5px;
-   
+
 }
 
 
 
-.telefone span.material-symbols-outlined, h3{
+.telefone span.material-symbols-outlined,
+h3 {
     display: inline-block;
     margin-right: 5px;
-    
-   
+
+
 }
 
 
 
-.redeSocial span.material-symbols-outlined, h3{
+.redeSocial span.material-symbols-outlined,
+h3 {
     display: inline-block;
     margin-right: 5px;
-   
-   
+
+
 }
 
 .emprego {
@@ -75,26 +85,29 @@ div.redeSocial {
 
 
 
-    .corpo{
-        margin-left: 75px;
-    } 
+.corpo {
+    margin-left: 75px;
+}
 
 
-.sobreMim h1{
+.sobreMim h1 {
     background-color: #949494;
     margin-right: 88%;
-   
+    height: auto;
+    width: 233px;
+
 }
 
-.experiencia h2{
+.experiencia h2 {
     margin-left: 10px;
 }
 
-.educacao h2,h3{
+.educacao h2,
+h3 {
     margin-left: 10px;
 }
 
-.habilidades p{
+.habilidades p {
     margin-left: 10px;
 }
 
@@ -102,41 +115,76 @@ div.redeSocial {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.experiencia h1{
+.experiencia h1 {
     background-color: #949494;
     margin-right: 87%;
+    height: auto;
+    width: 233px;
 }
 
-.educacao h1{
+.educacao h1 {
     background-color: #949494;
     margin-right: 88%;
-    
-    
+    height: auto;
+    width: 233px;
+
+
 }
 
 .educacao h3 {
-   
+
     margin-top: -35px;
-    
+
 }
 
 
-.habilidades h1{
+.habilidades h1 {
     background-color: #949494;
     margin-right: 85%;
-    
+    height: auto;
+    width: 233px;
+
 }
 
 .habilidades p {
-   margin-top: -15px;
+    margin-top: -15px;
 }
 
-.linhaVertical{
+.linhaVertical {
 
-    border-left: 3px solid ;
+    border-left: 3px solid;
     color: #3f3f3f;
-    
-    
+
+
 
 }
 
+.btn-3 {
+    background-color: #1B1D2D;
+    color: #fff;
+    margin-left: 73px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    align-items: center;
+}
+
+.btn-3:hover {
+    background-color: #3f3f3f;
+}
+
+.btn-3:active {
+    background: #1B1D2D;
+    top: 2px;
+}
+
+.btn-3:before {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    line-height: 3;
+    font-size: 140%;
+    width: 60px;
+}
