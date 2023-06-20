@@ -39,19 +39,21 @@
             margin-top: 5px;
             font-size: 20px;
             border-radius: 25px;
-            width: 180px;
-            height: 60px;
+            width: 200px;
+            height: 40px;
         }
 
+      
         button[type="submit"] {
-            background-color: navy;
+            background-color: rgb(68, 68, 228);
             color: white;
             cursor: pointer;
             font-size: 20px;
             border-radius: 30px;
-            width: 150px;
-            height: 60px;
+            width: 200px;
+            height: 43px;
             display: inline-block;
+            padding-right: 10px;
         }
 
         button[type="submit"]:hover {
@@ -59,7 +61,7 @@
         }
 
         #newChartButton {
-            background-color: navy;
+            background-color:  rgb(68, 68, 228);
             color: white;
             cursor: pointer;
             margin-top: 10px;
@@ -73,3 +75,19 @@
             background-color: rgb(38, 60, 105);
         }
 
+        #addColumnButton:hover{
+            background-color: dodgerblue;
+        }
+
+        .buttons{
+            display: flex;
+            
+        }
+
+        #graficoTitulo{
+            color: white;
+        }
+
+        #generateChartButton{
+            margin-right: 10px;
+        }

@@ -60,6 +60,7 @@ document.addEventListener('DOMContentLoaded', function () {
         document.getElementById('chartContainer').style.display = 'block';
         document.getElementById('newChartButton').style.display = 'block';
         document.getElementById('generateChartButton').style.display = 'none';
+        document.getElementById('addColumnButton').style.display = 'none'
 
         body.style.backgroundColor = backgroundColor;
         document.getElementById('columnInputs').style.display = 'none';
@@ -86,9 +87,9 @@ document.addEventListener('DOMContentLoaded', function () {
         document.getElementById('generateChartButton').style.display = 'block';
         document.getElementById('columnInputs').style.display = 'block';
         document.getElementById('graficoTitulo').style.display = "block"
-
+        document.getElementById('addColumnButton').style.display = 'block'
         var body = document.body;
-        body.style.backgroundColor = 'white';
+        body.style.backgroundColor = '#263c69';
     });
 
     function getChartColors(color, count) {
