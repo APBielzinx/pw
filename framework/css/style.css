@@ -1,6 +1,7 @@
   body {
             font-family: Arial, sans-serif;
             transition: background-color 0.3s ease;
+            background-color: rgb(38, 60, 105);
         }
 
         h1 {
@@ -23,6 +24,7 @@
         label {
             display: block;
             margin-top: 10px;
+            color: white;
         }
 
         select,
@@ -35,12 +37,21 @@
             border: 1px solid navy;
             padding: 5px;
             margin-top: 5px;
+            font-size: 20px;
+            border-radius: 25px;
+            width: 180px;
+            height: 60px;
         }
 
         button[type="submit"] {
             background-color: navy;
             color: white;
             cursor: pointer;
+            font-size: 20px;
+            border-radius: 30px;
+            width: 150px;
+            height: 60px;
+            display: inline-block;
         }
 
         button[type="submit"]:hover {
@@ -57,3 +68,8 @@
         #newChartButton:hover {
             background-color: dodgerblue;
         }
+
+        #columnInputs{
+            background-color: rgb(38, 60, 105);
+        }
+
