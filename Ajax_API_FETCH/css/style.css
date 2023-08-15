@@ -1,36 +1,83 @@
+/* style.css */
+
+ 
 
 /* Estilos para a tabela */
-#itemTable {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-  }
-  
-  #itemTable th, #itemTable td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
-  }
-  
-  #itemTable th {
-    background-color: purple;
-    color: white;
 
-  }
-  
-  /* Estilos para o corpo da página */
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Estilo roxo para os cabeçalhos da tabela */
-  #itemTable th {
-    background-color: purple;
-    color: white;
-  }
-  
-  /* Adicione mais estilos conforme necessário */
-  
-  
+#itemTable {
+
+    border-collapse: collapse;
+
+    width: 70%;
+
+    margin-top: 300px;
+
+    margin-left: 350px;
+
+}
+
+ 
+
+#itemTable th, #itemTable td {
+
+    border: 0.5px solid rgb(130, 19, 221);
+
+    padding: 10px;
+
+    text-align: center;
+
+    border-radius:3px; 
+
+}
+
+ 
+
+#itemTable th {
+
+    background-color: #95a5a6;
+
+}
+
+ 
+
+#itemTable tr:nth-child(even) {
+
+    background-color: #2ea7cc;
+
+}
+
+ 
+
+#itemTable tr:hover {
+
+    background-color: rgb(172, 120, 214);
+
+}
+
+ 
+
+#itemTable tr{
+
+    background-color: #95a5a6;
+
+}
+
+ 
+
+#itemTable thead tr th {
+
+    color: rgb(255, 255, 255);
+
+    font-size: 30px;
+
+    font-style: italic;
+
+}
+
+ 
+
+body {
+
+    background-color: rgb(132, 180, 235);
+
+}
