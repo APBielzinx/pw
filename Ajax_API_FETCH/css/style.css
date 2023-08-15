@@ -20,13 +20,13 @@
 
 #itemTable th, #itemTable td {
 
-    border: 0.5px solid rgb(130, 19, 221);
+    border: 0.5px solid rgb(120, 214, 194);
 
     padding: 10px;
 
     text-align: center;
 
-    border-radius:3px; 
+    border-radius:6px; 
 
 }
 
@@ -50,7 +50,7 @@
 
 #itemTable tr:hover {
 
-    background-color: rgb(172, 120, 214);
+    background-color: rgb(120, 214, 194);
 
 }
 
