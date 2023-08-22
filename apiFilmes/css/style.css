@@ -78,7 +78,7 @@
 
 body {
 
-    background-color: rgb(132, 180, 235);
+    background-color: #00CCC0;
 
 }
 
@@ -89,11 +89,13 @@ body {
   }
   
   .card {
-    border: 1px solid #ccc;
-    border-radius: 8px;
+    border: 3px solid #1B7F79;
+    border-radius: 13px;
     padding: 20px;
     width: 300px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(24, 123, 252, 0.849);
+    border-color: #72F2EB;
+    background-color: #1B7F79;
   }
   
   .card-img {
