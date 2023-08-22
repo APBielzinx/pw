@@ -1,0 +1,117 @@
+/* style.css */
+
+ 
+
+/* Estilos para a tabela */
+
+#itemTable {
+
+    border-collapse: collapse;
+
+    width: 70%;
+
+    margin-top: 300px;
+
+    margin-left: 350px;
+
+}
+
+ 
+
+#itemTable th, #itemTable td {
+
+    border: 0.5px solid rgb(120, 214, 194);
+
+    padding: 10px;
+
+    text-align: center;
+
+    border-radius:6px; 
+
+}
+
+ 
+
+#itemTable th {
+
+    background-color: #95a5a6;
+
+}
+
+ 
+
+#itemTable tr:nth-child(even) {
+
+    background-color: #2ea7cc;
+
+}
+
+ 
+
+#itemTable tr:hover {
+
+    background-color: rgb(120, 214, 194);
+
+}
+
+ 
+
+#itemTable tr{
+
+    background-color: #95a5a6;
+
+}
+
+ 
+
+#itemTable thead tr th {
+
+    color: rgb(255, 255, 255);
+
+    font-size: 30px;
+
+    font-style: italic;
+
+}
+
+ 
+
+body {
+
+    background-color: rgb(132, 180, 235);
+
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+  }
+  
+  .card-info {
+    margin-top: 10px;
+  }
+  
+  h2 {
+    margin: 0;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  
