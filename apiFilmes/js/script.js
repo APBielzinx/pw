@@ -1,4 +1,5 @@
 function buscar() {
+  document.getElementById("destaque").style ="display:none"
   const cardContainer = document.getElementById("cardContainer");
   let titulo = document.getElementById("titulo").value;
   const url = "https://www.omdbapi.com/?apikey=d599bb07&s=" + titulo;
@@ -49,6 +50,7 @@ function buscar() {
 }
 
 function filtrarPorAno() {
+  document.getElementById("destaque").style ="display:none"
   const cardContainer = document.getElementById("cardContainer");
   let titulo = document.getElementById("titulo").value;
   const url = "https://www.omdbapi.com/?apikey=d599bb07&s=" + titulo;
