@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>imposto de renda</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <h1>Imposto de renda</h1>
