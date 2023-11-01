@@ -9,7 +9,7 @@ body {
 
 h1 {
     text-align: center;
-    background-color: #4CAF50;
+    background-color: #ec79dd;
     color: white;
     padding: 20px;
     margin: 0;
@@ -38,7 +38,7 @@ input[type="text"], input[type="number"] {
 }
 
 button {
-    background-color: #4CAF50;
+    background-color:  #ec79dd;
     color: white;
     padding: 15px 20px;
     border: none;
@@ -48,7 +48,7 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color:  #7c3172;
 }
 
 #result {

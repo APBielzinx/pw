@@ -2,7 +2,7 @@ var table = document.getElementById('pessoa-table').getElementsByTagName('tbody'
 
 document.addEventListener("DOMContentLoaded", function() {
     localStorage.clear()
-    let url = "http://localhost/pw/ApiRestImpostoDeRenda/controller/index.php";
+    let url = "http://localhost/pw/calculadoraImpostoDeRenda/controller/pessoa.php";
 
     fetch(url)
         .then(function (response) {

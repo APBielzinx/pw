@@ -7,7 +7,7 @@ body {
 
 h1 {
     text-align: center;
-    background-color: #4CAF50;
+    background-color: #ec79dd;
     color: white;
     padding: 20px;
     margin: 0;
@@ -29,7 +29,7 @@ th, td {
 }
 
 th {
-    background-color: #4CAF50;
+    background-color: #ec79dd;
     color: white;
 }
 
@@ -42,7 +42,7 @@ tr:hover {
 }
 
 button {
-    background-color: #4CAF50;
+    background-color:  #ec79dd;
     color: white;
     padding: 10px 15px;
     border: none;
@@ -57,7 +57,7 @@ button.delete {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #7c3172;
 }
 
 button.delete:hover {
@@ -86,7 +86,7 @@ button.delete:hover {
 /* Estilo para o ícone de edição */
 .edit-icon {
     cursor: pointer;
-    color: #44ce62;
+    color:  #ec79dd;
 }
 .edit-cell {
     padding: 5px; /* Ajuste o espaçamento conforme necessário */
